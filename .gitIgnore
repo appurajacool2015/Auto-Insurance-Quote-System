@@ -1,0 +1,53 @@
+ ##########
+*target*
+*.jar
+*.war
+*.ear
+*.class
+*.factorypath
+
+##### eclipse specific git ignore #######
+*.pydevproject
+.project
+.metadata
+bin/**
+tmp/**
+tmp/**/*
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.classpath
+.settings/
+.loadpath
+.classpath*
+/bin
+.checkstyle
+/out/
+/bin
+.externalToolBuilders/
+maven-eclipse.xml/target/
+
+####### Locally stored "Eclipse launch configurations" #####
+*.launch
+###### Intellij #########
+.idea/
+target/
+*.iml
+*.iws
+*.log
+
+########## Mac #########
+.DS_Store
+
+
+######## Logs and databases #####
+*.log
+*.sqlite
+
+####### OS generated files #######
+.DS_Store?
+ehthumbs.db
+Icon?
+Thumbs.db
